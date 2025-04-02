@@ -1981,7 +1981,7 @@ defmodule Ecto.Query do
   works with the macro-based query syntax and not the keyword-based
   query syntax.
 
-  For example, the following will generate a query that orders by `human_popluation`
+  For example, the following will generate a query that orders by `human_population`
   and then `name`:
 
       City |> order_by([c], c.name) |> prepend_order_by([c], c.human_population)
